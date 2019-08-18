@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-display: Arial;
+}
+.text-primary{
+    color: coral;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.logo1{
+    text-decoration: none;
+    color: white;
+}
+
+.text-secondary{
+    color: whitesmoke;
+}
+
+.bg-primary{
+    background: coral;
+}
+
+.btn{
+    background: teal;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.btn:hover{
+    background: #333;
+    color: #fff;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: #333;
+    z-index: 1;
+    padding: 1rem;
+    overflow: none;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: teal;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.sect1{
+    background: url('./images/bg_1.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.sect1 .sectcontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.sect1 .showcase{
+    font-size: 5em;
+    color: coral;
+}
+
+.sect1 .sectcontent p{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.sect2{
+    background: #777; 
+    height: 50vh;
+}
+
+.sect2 p{
+    line-height: 2.5rem;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.sect2 h3{
+    font-size: 5em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sect3{
+    display: flex;
+    background: black;
+    height: 60vh;
+}
+
+.sect3 .sect33{
+    background: url('./images/team.jpg')
+    no-repeat center center/cover;
+    height: 60vh;
+    opacity: 0.5;
+}
+.sect3 div{
+    flex: 1;
+}
+
+.sect3 ul {
+    list-style:none;
+    padding: 10px 20px;
+}
+
+.sect3 ul li,
+.sect3 p{
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+}
+
+.sect3 ul li{
+    border-bottom: 1px dotted #333;
+    padding: 1px;
+    color: #fff;
+}
+
+.sect3 h3{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.sect3 .sect34{
+background: url(./images/team1.jpg) 
+no-repeat center center/cover;
+}
+
+.contact{
+    display: flex;
+    height: 115vh;
+   
+}
+
+.contact .contact_form , .contact .map{
+    flex: 1;
+}
+.contact .contact_form .form_group{
+margin: 0.75em;
+}
+
+.contact h3{
+    font-size: 3em;
+    text-align: center;
+}
+
+ .contact label{
+     display: block;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.contact  input,
+.contact textarea{
+    width: 100%;
+    padding: 3px;
+}
+
+#map{
+    width: 50%;
+    height: 100%;
+}

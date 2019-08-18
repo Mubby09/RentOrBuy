@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a class = 'logo1'  href="home_rentorbuy.html">
+            <span class="text-primary "><i class="fas fa-home"></i>Rent</span>OrBuy
+        </a>
+        </div>
+        <ul>
+            <li><a href="#sect1">Home</a></li>
+            <li><a href="#sect2">What We Do</a></li>
+            <li><a href="#sect3">Contact</a></li>  
+        </ul>
+    </nav>
+    <section class="sect1"><a name = 'sect1'>
+        <div class="sectcontent">
+                <h3 class="showcase"><span class="text-primary">We </span> Help You Rent Or Buy Your Dream Apartment </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero modi laboriosam saepe dolore deleniti est, dolores eveniet reiciendis at eos, animi possimus, libero voluptatem.</p>
+                <a  href= '#' class="btn">Contact Us</a>
+            </div>
+        </a>
+    </section>
+
+    <section class="sect2"><a name= 'sect2'>
+        <h3><span class="text-primary">How</span> We Work</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dolorem suscipit iure obcaecati, commodi asperiores error temporibus eligendi repellat magni voluptates nam sunt! Eos saepe placeat magni aliquid totam dolor ullam temporibus necessitatibus porro nam soluta, quae quos. Reprehenderit itaque velit aperiam saepe. Quisquam aliquid amet magni fugiat, ex at quo? Error dolorum aperiam suscipit nesciunt repellat temporibus, vitae animi minima nisi quia molestiae eum, est expedita a soluta commodi! Dolorem dolor dolore optio autem, eveniet facilis quibusdam, rerum ducimus quo sequi, aut magni temporibus iste ab adipisci inventore quam consequatur minima vero dolores porro? Expedita, iusto alias? Possimus, distinctio.</p>
+    </a>
+    </section>
+
+
+    <section class="sect3">
+        <div class="sect33"></div>
+        <div>
+            <h3><span class="text-primary">What</span> We Do</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iusto quis placeat, nam soluta earum quod officiis quos eum fugiat totam illo suscipit, debitis, optio neque eveniet. Consequatur, aperiam, eos quasi sit et laborum necessitatibus praesentium debitis sint, dolore nemo.</p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nisi.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur</li>
+            <li>Lorem ipsum,  adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum dolor sit amet  elit. Soluta!</li>
+        </ul>
+        </div>
+        <div class="sect34"> </div>
+    
+    </section>
+
+
+    <section class="contact"><a name= 'sect3'>
+        <div class="contact_form bg-primary">
+            <form>
+            <h3><span class="text-secondary">Reach</span> Out To Us</h3>
+            <div class="form_group">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" />
+            </div>
+            <div class="form_group">
+                <label  for="email">Email: </label>
+                <input type="email" id="email" name="name"  placeholder="Enter Email"/>
+            </div >
+            <div class="form_group">
+                    <label  for="phone">Phone: </label>
+                    <input type="phone" id="phone" name="phone"  placeholder="Enter Phone Number"/>
+            </div>
+            <div class="form_group">
+                <label for="messaage">Message:</label>
+                <textarea type='messaage'  name= 'messaage' id='message' cols="50" rows="20" placeholder="Enter Your Message"></textarea>
+            </div>
+           <input type="submit" value="Send" class="btn">
+        </form>
+    </a>
+        </div>
+  
+        <div id="map"></div>
+    
+    </section>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+<script src='main.js'></script>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIzoKuG6swUhv1ESew29MEF-9X-wb1DVg&callback=initMap">
+</script>
+
+</body>
+</html>
